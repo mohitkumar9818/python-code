@@ -1,0 +1,10 @@
+#Area of Triangle Using Heron's Formula where sides entered by user.
+a=float(input("Enter the first side="))
+b=float(input("Enter the Second side="))
+c=float(input("Enter the third side=")) 
+if (a + b) > c and (b+c)>a and (c+a)>b :
+    s=(a+b+c)/2
+    k= (s * (s - a) * (s - b) * (s - c))**0.5
+    print("Area of triangle is ",k)
+else:
+    print("Triangle is not valid ")
