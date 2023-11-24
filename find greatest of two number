@@ -1,0 +1,8 @@
+#Find the Greatest of Two Numbers in Python
+
+a=int(input("Enter your First Number="))
+b=int(input("Enter your Second Number="))
+if a>b :
+    print("Gretest Number is=",a)
+else:
+    print("Gretest Number is=",b)
