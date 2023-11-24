@@ -1,0 +1,8 @@
+#Write a program that calculates and displays the sum of all odd numbers from 1 to a user  specified number.
+
+n=int(input("Enter the number="))
+a=0
+i=1
+for i in range(i,n+1,2):
+   a=a+i
+print("Sum of all odd number is ",a)
