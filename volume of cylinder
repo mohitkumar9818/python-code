@@ -1,0 +1,5 @@
+#Develop a program that calculates the volume of a cylinder. Ask the user for the radius and height
+r=float(input("Enter the radius="))
+h=float(input("Enter the height="))
+v=(22/7)*(r*r)*h
+print("volumn of cylinder is ", v)
