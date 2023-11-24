@@ -2,7 +2,7 @@
 
 n=int(input("Enter the number="))
 a=0
-i=2
+i=0
 for i in range(i,n+1):
    a=a+i
 print("Sum of all numer is ",a)
