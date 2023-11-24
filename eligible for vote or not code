@@ -1,0 +1,6 @@
+##Write a program that takes a user's age as input and determines if they are eligible to vote (above 18)
+a=int(input("Enter your Age="))
+if a>=18 :
+    print("Yes you can vote ")
+else:
+    print("No you can not vote")
