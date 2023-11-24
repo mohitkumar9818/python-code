@@ -1,0 +1,4 @@
+#Volume of a Sphere
+r=float(input("Enter the radius="))
+a=(4/3) * (22/7)  *(r*r*r)
+print("Area of Sphere is ",a)
