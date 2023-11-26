@@ -1,0 +1,33 @@
+print("Temperature Converter")
+print("1. Celsius to Fahrenheit")
+print("2. Fahrenheit to Celsius")
+print("3. Celsius to Kelvin")
+print("4. Kelvin to Celsius")
+print("5. Fahrenheit to Kelvin")
+print("6. Kelvin to Fahrenheit")
+
+choice = int(input("Enter your choice (1-6): "))
+
+if choice in range(1, 7):
+    value = float(input("Enter the temperature value: "))
+
+    if choice == 1:
+        result = (value * 9/5) + 32
+        print(f"{value} Celsius is equal to {result} Fahrenheit.")
+    elif choice == 2:
+        result = (value - 32) * 5/9
+        print(f"{value} Fahrenheit is equal to {result} Celsius.")
+    elif choice == 3:
+        result = value + 273.15
+        print(f"{value} Celsius is equal to {result} Kelvin.")
+    elif choice == 4:
+        result = value - 273.15
+        print(f"{value} Kelvin is equal to {result} Celsius.")
+    elif choice == 5:
+        result = ((value - 32) * 5/9) + 273.15
+        print(f"{value} Fahrenheit is equal to {result} Kelvin.")
+    elif choice == 6:
+        result = ((value - 273.15) * 9/5) + 32
+        print(f"{value} Kelvin is equal to {result} Fahrenheit.")
+else:
+    print("Invalid choice. Please enter a number between 1 and 6.")
