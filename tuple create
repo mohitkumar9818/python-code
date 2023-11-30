@@ -1,0 +1,2 @@
+#How can you create a tuple with a single element?
+single_element_tuple = (5,)
