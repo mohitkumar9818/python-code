@@ -1,0 +1,5 @@
+#How do you define a default value for a function parameter?
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+greet()  # Output: Hello, Guest!
