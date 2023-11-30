@@ -1,0 +1,7 @@
+#What is a generator in Python?
+def square_generator(n):
+    for i in range(n):
+        yield i**2
+
+squares = square_generator(5)
+print(list(squares))
