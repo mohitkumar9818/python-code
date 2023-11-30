@@ -1,0 +1,4 @@
+#How do you import a module in Python?
+import math
+result = math.sqrt(25)
+print(result)
