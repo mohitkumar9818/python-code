@@ -1,0 +1,7 @@
+#keyword argument 
+def key(stat,name,clas,roll):
+    d=(f'''{stat} my name is {name} and i am in {clas}  class and my roll number is {roll}''') 
+    return d
+stat=input("type hello")
+a=key(stat,roll=29,name='mohit',clas='cd')
+print(a)
