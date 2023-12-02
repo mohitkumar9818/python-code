@@ -1,0 +1,8 @@
+#default argument
+def arg(a,b,c=10,d=11):
+    c=a+b+c+d
+    return(c)
+a=int(input("enter the num="))
+b=int(input("enter the num="))
+c=100
+print(arg(a,b,c))
