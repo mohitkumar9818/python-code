@@ -1,0 +1,4 @@
+my_list = [3, 1, 4, 1, 5, 9, 2]
+minimum = min(my_list)
+maximum = max(my_list)
+print("Min:", minimum, "Max:", maximum)
