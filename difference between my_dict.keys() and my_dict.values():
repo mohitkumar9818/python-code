@@ -1,0 +1,2 @@
+keys_list = list(my_dict.keys())
+values_list = list(my_dict.values())
